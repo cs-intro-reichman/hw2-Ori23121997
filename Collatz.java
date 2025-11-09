@@ -28,6 +28,7 @@ public class Collatz {
 					}else{
 						a = a*3 +1;
 						Collatz = Collatz+ " " +String.valueOf(a);
+						b+=1;
 						}
 				}if (Mode.equals("v")){
 					System.out.println(Collatz + " ("+b+")");}
